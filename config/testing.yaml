@@ -1,0 +1,22 @@
+%YAML:1.0
+show_debug_info: false
+#if true will recompute the covariance matrixes from the input images
+train: false
+
+#path of the input images used to compute covariance matrixes
+input_path: RGBD_Face_dataset_training/biwi/
+#output path where cropped faces will be saved if show_debug_info is set to true
+output_path: Results/Test/
+#output path where the covariance matrixes are saved
+save_path: Save/Test/
+
+#the selected person for this test
+starting_person: 1
+#how many photo of this person we want to read
+number_of_photo_per_person: 15
+#the index of the first photo we want to read
+starting_photo: 0
+number_of_persons: 20
+
+#if true will move the used images in samefolder/used/...
+move_used_images: true

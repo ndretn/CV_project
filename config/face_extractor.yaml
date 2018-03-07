@@ -1,0 +1,29 @@
+%YAML:1.0
+show_debug_info: false
+
+segmentate:
+  z_max: 2.5
+  x_min: -0.6
+  x_max: 0.6
+  y_min: -1
+  y_max: 3
+  use_clustering: false
+  cluster_tolerance: 0.02
+  min_cluster_size: 5000
+  max_cluster_size: 1000000
+
+face_pose_estimator:
+  path_to_trees: trees/tree
+  trees_no: 10
+  max_variance: 800
+  clustering_radius: 1.6
+  ms_radius: 5
+  stride: 5
+  head_threshold: 118
+
+head_crop:
+  number_of_pixel: 8
+  face_h_changer: 200
+  beta: 1.125
+  gamma: 0.5
+
