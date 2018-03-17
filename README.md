@@ -5,7 +5,7 @@ This repository contains the code of the final project of the computer vision co
 The aim of the project was the implementation of a face recognition technique using RGB-D data originally described in the following paper: 
 Gaoli Sang, Jing Li, and Qijun Zhao. 2016. Pose-invariant face recognition via RGB-D images. Intell. Neuroscience 2016, Article 13 (January 2016).
 
-The paper describe a technique for face recognition using RGB-D data.
+The paper describes a technique for face recognition using RGB-D data.
 In particular it uses a covariance matrix approach to represent faces and SVMs on classification phase.
 
 This project is copyright of Andrea Tonon and it licensed under the BSD 3-Clause license, as also described in the file [license.txt](license.txt).
